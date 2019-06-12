@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="206a56a3-e8c1-4516-9153-2025cc08e080" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://bzbest.ml:48320/JIFresherControl/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="94ab1257-b5f6-48bf-b563-a6aeb8687a30" SourceId="1" SourceUrl="net.tcp://bzbest.ml:48320/JIFresherControl/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="eb5de96d-258b-4b81-8115-a39b5be7024d" SourceId="1" SourceUrl="net.tcp://bzbest.ml:48320/JIFresherControl/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="efd1c57d-2cba-449f-8db1-15db05b61293" SourceId="1" SourceUrl="net.tcp://bzbest.ml:48320/JIFresherControl/mex" />
+    <MetadataFile FileName="JIFreshController.xsd" MetadataType="Schema" ID="7168d9d3-375a-4d10-a650-e51fbdda84c2" SourceId="1" SourceUrl="net.tcp://bzbest.ml:48320/JIFresherControl/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<startup><supportedRuntime version="v2.0.50727"/></startup><system.serviceModel>
+        <bindings>
+            <netTcpBinding>
+                <binding name="NetTcpBinding_IJIFresherControl">
+                    <security mode="None" />
+                </binding>
+            </netTcpBinding>
+        </bindings>
+        <client>
+            <endpoint address="net.tcp://bzbest.ml:48320/JIFresherControl"
+                binding="netTcpBinding" bindingConfiguration="NetTcpBinding_IJIFresherControl"
+                contract="JIFreshService.IJIFresherControl" name="NetTcpBinding_IJIFresherControl" />
+        </client>
+    </system.serviceModel>
+</configuration>
